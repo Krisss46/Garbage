@@ -1,6 +1,7 @@
 function write(...text){
  console.log(text.reduce((res, val) => 
 	res += val, ""))
+ console.log("reduce")
 }
 
 function p(text, target){
